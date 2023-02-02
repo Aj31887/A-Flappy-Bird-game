@@ -1,0 +1,11 @@
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\bin\Debug\FlappyBirdWForms.exe.config
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\bin\Debug\FlappyBirdWForms.exe
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\bin\Debug\FlappyBirdWForms.pdb
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.csproj.AssemblyReference.cache
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.Form1.resources
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.Properties.Resources.resources
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.csproj.GenerateResource.cache
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.csproj.CoreCompileInputs.cache
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.exe
+C:\Users\Abujasim\source\repos\FlappyBirdWForms\FlappyBirdWForms\obj\Debug\FlappyBirdWForms.pdb
