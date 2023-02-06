@@ -25,7 +25,7 @@ namespace FlappyBirdWForms
             InitializeComponent();
             gameOverLabel.Text = "";
             restartLabel.Text = "";
-
+            controlsLabel.Text = "";
         }
 
         private void gameTimerEvent(object sender, EventArgs e)
@@ -110,6 +110,7 @@ namespace FlappyBirdWForms
             //scoreText.Text += "         GAME OVER";
             gameOverLabel.Text = "GAME OVER";
             restartLabel.Text = "Press Enter to play again...";
+            controlsLabel.Text = "Game Controls: Press [ SPACE ] to fly!";
             gameEnded = true;
         }
 
@@ -119,6 +120,8 @@ namespace FlappyBirdWForms
             pipeSpeed = 8;
             gameOverLabel.Text = "";
             restartLabel.Text = "";
+            controlsLabel.Text = "";
+
             score = 0;
             flappyBird.Top = 50;
             pipeTop.Left = 600;

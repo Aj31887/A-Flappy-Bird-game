@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.flappyBird = new System.Windows.Forms.PictureBox();
             this.ground1 = new System.Windows.Forms.PictureBox();
             this.pipeBottom = new System.Windows.Forms.PictureBox();
@@ -37,6 +38,7 @@
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.gameOverLabel = new System.Windows.Forms.Label();
             this.restartLabel = new System.Windows.Forms.Label();
+            this.controlsLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.flappyBird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ground1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pipeBottom)).BeginInit();
@@ -56,7 +58,7 @@
             // ground1
             // 
             this.ground1.Image = global::FlappyBirdWForms.Properties.Resources.ground;
-            this.ground1.Location = new System.Drawing.Point(-30, 629);
+            this.ground1.Location = new System.Drawing.Point(-23, 629);
             this.ground1.Name = "ground1";
             this.ground1.Size = new System.Drawing.Size(695, 147);
             this.ground1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,7 +92,7 @@
             this.scoreText.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreText.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.scoreText.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.scoreText.Location = new System.Drawing.Point(243, 9);
+            this.scoreText.Location = new System.Drawing.Point(233, 9);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(139, 33);
             this.scoreText.TabIndex = 4;
@@ -106,7 +108,7 @@
             // 
             this.gameOverLabel.AutoSize = true;
             this.gameOverLabel.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gameOverLabel.Location = new System.Drawing.Point(180, 283);
+            this.gameOverLabel.Location = new System.Drawing.Point(169, 283);
             this.gameOverLabel.Name = "gameOverLabel";
             this.gameOverLabel.Size = new System.Drawing.Size(341, 52);
             this.gameOverLabel.TabIndex = 5;
@@ -118,11 +120,23 @@
             this.restartLabel.BackColor = System.Drawing.Color.DarkOrange;
             this.restartLabel.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.restartLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.restartLabel.Location = new System.Drawing.Point(193, 335);
+            this.restartLabel.Location = new System.Drawing.Point(173, 335);
             this.restartLabel.Name = "restartLabel";
             this.restartLabel.Size = new System.Drawing.Size(128, 27);
             this.restartLabel.TabIndex = 6;
             this.restartLabel.Text = "RestartLabel";
+            // 
+            // controlsLabel
+            // 
+            this.controlsLabel.AutoSize = true;
+            this.controlsLabel.BackColor = System.Drawing.SystemColors.Highlight;
+            this.controlsLabel.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlsLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.controlsLabel.Location = new System.Drawing.Point(87, 393);
+            this.controlsLabel.Name = "controlsLabel";
+            this.controlsLabel.Size = new System.Drawing.Size(158, 29);
+            this.controlsLabel.TabIndex = 7;
+            this.controlsLabel.Text = "controlsLabel";
             // 
             // Form1
             // 
@@ -130,6 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(627, 699);
+            this.Controls.Add(this.controlsLabel);
             this.Controls.Add(this.pipeBottom);
             this.Controls.Add(this.restartLabel);
             this.Controls.Add(this.gameOverLabel);
@@ -139,6 +154,7 @@
             this.Controls.Add(this.flappyBird);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -165,6 +181,7 @@
         private System.Windows.Forms.Timer gameTimer;
         private System.Windows.Forms.Label gameOverLabel;
         private System.Windows.Forms.Label restartLabel;
+        private System.Windows.Forms.Label controlsLabel;
     }
 }
 
